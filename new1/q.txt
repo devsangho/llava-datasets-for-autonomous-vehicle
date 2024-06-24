@@ -1,0 +1,31 @@
+If you pass me the locations of parking areas and obstacles, I will ask you several questions about the optimal parking area. Each is composed of 4 coordinates and is composed of a square. The obstacle is also a square defined by four coordinates. The position of the car is (0, 0)
+Based on the center of the car, the right direction is the positive x-axis direction, and the upward direction is the positive y-axis direction. In addition, all coordinates are normalized to a size of 1. and, Answer my questions in unstyled text format(No Bold).
+How many parking areas are there?
+
+Where is the parking area?
+
+If you want to park the fastest, where should you park?
+
+Considering the obstacles, where would you recommend to park?
+
+If there are passengers, where would you recommend to park?
+
+Convert our conversations to json without first questions and Answer.
+```json
+[
+  {
+    "id": "997bb945-628d-4724-b370-b84de974a19f",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWrite a prompt for Stable Diffusion to generate this image."
+      },
+      {
+        "from": "gpt",
+        "value": "a beautiful painting of chernobyl by nekro, pascal blanche, john harris, greg rutkowski, sin jong hun, moebius, simon stalenhag. in style of cg art. ray tracing. cel shading. hyper detailed. realistic. ue 5. maya. octane render. "
+      },
+      ...
+    ]
+  },
+]
+```
